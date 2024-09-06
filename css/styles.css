@@ -1,0 +1,191 @@
+
+/* ESTILO GERAL */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+  
+    
+  
+}
+
+body{
+    background-color: #000000;
+    background-image: url(/images/Logo\ propulsor\ -\ Branco.png);
+    background-position: 20px 30px;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 2200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #6F63C6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #6F63C6;
+    transform: scale(1.05);
+
+}
+
+.btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #6F63C6;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+
+
+
+/* ESTILO DO CABEÇALHO */
+header{
+   
+    padding: 20px 4%;
+    
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #7c7c7c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .interface .btn-contato button{
+    
+}
+
+
+/* ESTILO DO TOPO DO SITE*/
+section.topo_do_site{
+    padding: 40px 4%;
+}
+
+section.topo_do_site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo_do_site h1{
+    color: #ffffff;
+    font-size: 47px;
+    line-height: 40px;
+}
+
+.topo_do_site .txt_topo_site h1 span{
+    color: #6F63C6;
+}
+
+.topo_do_site .txt_topo_site p{
+    color:#ffffff;
+    margin: 40px 0;
+    font-size: 23px;
+}
+
+.logo{
+    width: 50%;
+    padding: 2%;
+    justify-content: center;
+}
+
+.logo img{
+    width: 250px;
+    cursor: pointer;
+    
+}
+
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt_sobre{
+    color: #ffffff;
+}
+
+.sobre .txt_sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt_sobre h2 span{
+    color: #6F63C6;
+    
+}
+
+.sobre .txt_sobre p{
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+
+
+/* ESTILO RODAPÉ */
+footer{
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .rodape {
+    border-top: 2px solid #ffffff;
+}
+
+footer .rodape p{
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
